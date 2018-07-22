@@ -1,10 +1,14 @@
 @ECHO OFF
 TITLE PCSimpleBackup
 
+#######################################################
+##                      CONFIG                       ##
+#######################################################
 # Modify these variables to change backup destination:
 set BACKUPDRIVELETTER=L:
 set BACKUPFOLDERDIR=L:\DellPCBackup\
 set BACKUPLOGFILE=L:\DellPCBackup.log
+#######################################################
 
 CLS
 
