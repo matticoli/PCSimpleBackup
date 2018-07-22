@@ -5,9 +5,9 @@ TITLE PCSimpleBackup
 ##                      CONFIG                       ##
 #######################################################
 # Modify these variables to change backup destination:
-set BACKUPDRIVELETTER=L:
-set BACKUPFOLDERDIR=L:\DellPCBackup\
-set BACKUPLOGFILE=L:\DellPCBackup.log
+set BACKUPDRIVELETTER=D:
+set BACKUPFOLDERDIR=D:/user-backup/
+set BACKUPLOGFILE=D:/user-backup.log
 #######################################################
 
 CLS
