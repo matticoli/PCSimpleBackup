@@ -52,7 +52,7 @@ ECHO THIS CAN NOT BE CANCELLED ONCE STARTED
 SET /P AREYOUSURE=Are you sure (Y/[N])?
 IF /I "%AREYOUSURE%" NEQ "Y" GOTO CANCEL
 ECHO Running backup, this may take a while...
-robocopy "%USERPROFILE%" "%BACKUPFOLDERDIR%" /XO /XA:SH /S /XD AppData /XJD /R:5 /W:15  /MT:32 /NP /LOG:%BACKUPLOGFILE%
+robocopy "%USERPROFILE%" "%BACKUPFOLDERDIR%" /XO /XA:SH /S /XD AppData Downloads /XJD /R:5 /W:15  /MT:32 /NP /LOG:%BACKUPLOGFILE%
 ECHO Backup complete!
 GOTO END
 
